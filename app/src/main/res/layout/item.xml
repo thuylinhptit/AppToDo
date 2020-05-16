@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/btn_done"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:layout_width="45dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/notcheck"
+        android:layout_height="55dp"
+        tools:targetApi="lollipop" />
+    <TextView
+        app:layout_constraintLeft_toRightOf="@+id/btn_done"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hello"
+        android:textSize="20dp"
+        android:id="@+id/content"
+        android:textStyle="bold"
+        android:textColor="#090909"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_Like"
+        android:layout_width="70dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/heart_40px"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintLeft_toRightOf="@+id/content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_done"
+        android:layout_marginRight="10dp"
+        android:background="#EF3D90"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

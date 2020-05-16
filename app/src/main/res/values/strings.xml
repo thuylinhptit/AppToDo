@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppToDo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_fire_missiles">Are You Sure?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">No</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#226C25</color>
+    <color name="task">#673AB7</color>
+    <color name="mauxanh">#53C157</color>
+</resources>

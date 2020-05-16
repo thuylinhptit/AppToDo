@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.apptodo.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_importantFragment"
+            app:destination="@id/importantFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/importantFragment"
+        android:name="com.example.apptodo.ImportantFragment"
+        android:label="fragment_important"
+        tools:layout="@layout/fragment_important" >
+        <argument
+            android:name="iteam_important"
+            app:argType="com.example.apptodo.CongViec" />
+    </fragment>
+</navigation>
